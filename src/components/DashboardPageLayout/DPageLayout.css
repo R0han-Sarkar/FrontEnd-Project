@@ -1,0 +1,27 @@
+.Dashboard {
+  display: flex;
+  padding: 5px;
+}
+.sideBar {
+  width: 270px;
+  height: 834px;
+  background: linear-gradient(180deg, #4285f4 0%, #3c83f9 100%);
+  border-radius: 10px;
+  margin: 10px;
+}
+.head-with-body {
+  margin: 10px 0px;
+}
+.headBar {
+  width: 80vw;
+  height: 55px;
+  background: white;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+.dashboard-body {
+  width: 76vw;
+  height: 778px;
+  border-radius: 10px;
+  margin-left: 30px;
+}

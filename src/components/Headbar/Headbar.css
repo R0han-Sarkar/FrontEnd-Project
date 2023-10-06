@@ -1,0 +1,49 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    margin: 0px 15px;
+  }
+  
+  .title {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px;
+  }
+  
+  .right-side {
+    display: flex;
+    margin-right: 30px;
+  }
+  .right-side > div {
+    padding: 0px 15px;
+  }
+  .search-bar {
+  
+    margin-top: 8px;
+    position: relative;
+  }
+  .search-bar>input{
+      padding: 5px 15px;
+      border: none;
+      border-radius: 10px;
+      background-color: rgb(239, 236, 236);
+  }
+  .bi-search {
+    font-size: 14px;
+    position: absolute;
+    top: 20%;
+    right: 25%;
+  }
+  .bell-icon {
+    margin-top: 7px;
+  }
+  .user-image-pic {
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+  }

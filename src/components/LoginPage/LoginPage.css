@@ -1,0 +1,108 @@
+.full-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.l-side {
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(180deg, #4285f4 0%, #286de0 100%);
+  clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.r-side {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.Board {
+  color: white;
+  font-size: 72px;
+  font-family: Montserrat;
+  font-weight: 700;
+  word-wrap: break-word;
+  margin-right: 30%;
+  margin-bottom: 10%;
+}
+.Logo {
+  color: white;
+  font-size: 24px;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 29.44px;
+  letter-spacing: 0.36px;
+  word-wrap: break-word;
+  position: absolute;
+  top: 4%;
+  left: 3%;
+}
+.Icons-container {
+  position: absolute;
+  bottom: 8%;
+  left: 18%;
+  width: 200px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+.icon {
+  display: contents;
+  cursor: pointer;
+}
+
+.SIGN-IN {
+  position: absolute;
+  top: 23%;
+  left: 15%;
+}
+.sign-in {
+  color: black;
+  font-size: 36px;
+  font-family: Montserrat;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.sign-in-ac {
+  color: black;
+  font-size: 16px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.Sign-in-options {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+}
+.Sign-in-G {
+  color: #858585;
+  font-size: 12px;
+  font-family: Montserrat;
+  font-weight: 400;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+.Sign-in-A {
+  color: #858585;
+  font-size: 12px;
+  font-family: Montserrat;
+  font-weight: 400;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+.login-form-label {
+  color: black;
+  font-size: 16px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+}

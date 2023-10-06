@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Total Revenues",
+    "quantity": "$2,129,430",
+    "imageUrl": "/DashboardPage_images/revenues.png",
+    "plus": "+2.5%",
+    "color": "#7FCD93"
+  },
+  {
+    "id": 2,
+    "name": "Total Transactions",
+    "quantity": "1,520",
+    "imageUrl": "/DashboardPage_images/transactions.png",
+    "plus": "+1.7%",
+    "color": "#DEBF85"
+  },
+  {
+    "id": 3,
+    "name": "Total likes",
+    "quantity": "9,721",
+    "imageUrl": "/DashboardPage_images/likes.png",
+    "plus": "+1.4%",
+    "color": "#ECA4A4"
+  },
+  {
+    "id": 4,
+    "name": "Total Users",
+    "quantity": "9,721",
+    "imageUrl": "/DashboardPage_images/users.png",
+    "plus": "+4.2%",
+    "color": "#A9B0E5"
+  }
+]

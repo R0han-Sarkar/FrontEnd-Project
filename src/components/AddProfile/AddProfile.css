@@ -1,0 +1,75 @@
+.add-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.plus-circle {
+  font-size: 3.5rem;
+}
+.add-profile-tag {
+  color: #858585;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.modal-content {
+  width: 100%;
+  height: 500px;
+}
+.addprofile-form-label {
+  color: #231f20;
+  font-size: 16px;
+  font-family: Figtree;
+  font-weight: 600;
+  line-height: 24px;
+  word-wrap: break-word;
+  font-weight: bold;
+}
+.stepper-horizontal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  margin-bottom: 0.4rem !important;
+}
+.stepper-step {
+  width: fit-content;
+  display: table-cell;
+  position: relative;
+  padding: 10px 90px !important;
+}
+
+.floating__input {
+  width: 100%;
+  height: 40px;
+  padding: 0px 10px;
+  border: none;
+  background-color: #e5e4e4;
+  border-radius: 10px;
+}
+.floating {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.input_group {
+  margin-top: 10px;
+}
+.formik-s-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+}
+.hidden--visually {
+  color: #231f20;
+  font-size: 16px;
+  font-family: Figtree;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+}
